@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+        }
+        .container {
+            height: 50%;
+            width: 50%;
+            background-color: rgb(210, 209, 209);
+            gap: 20px;
+            display: flex;
+        }
+        .box {
+            height: 90%;
+            width: 50px;
+            background-color: rgb(43, 2, 21);
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="container">
+    
+    </div>
+    <button onclick="addBox()">Add box</button>
+    <script>
+        function addBox() {
+            document.getElementById("container").innerHTML += '<div class="box"><button>Remove</button></div>';
+        }
+    </script>
+</body>
+</html>
