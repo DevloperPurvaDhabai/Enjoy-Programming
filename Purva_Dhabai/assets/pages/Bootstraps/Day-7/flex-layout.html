@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!--css link start-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <!--css link end-->
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div class="card">
+        <div class="card-header bg-primary text-white text-center">
+          <h3>Admission Form</h3>
+        </div>
+
+        <!--card body-->
+        <div class="card-body">
+          <form>
+            <div class="mb-3">
+              <label class="form-label">Full Name</label>
+              <input
+                class="form-control"
+                type="text"
+                placeholder="Enter your name"
+              />
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Enter Email</label>
+              <input
+                class="form-control"
+                type="text"
+                placeholder="Enter your email"
+              />
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Phone Number</label>
+              <input
+                class="form-control"
+                type="text"
+                placeholder="Enter your namber"
+              />
+            </div>
+
+            <!--Gender-->
+            <div class="mb-3">
+              <label class="form-label">Gender</label>
+              <div class="form-check form-check-line">
+                <input class="form-check-input" type="radio" name="gender" />
+                <label class="form-check-label">Male</label>
+              </div>
+
+              <div class="form-check form-check-line">
+                <input class="form-check-input" type="radio" name="gender" />
+                <label class="form-check-label">Female</label>
+              </div>
+            </div>
+
+            <!--Course-->
+            <div class="mb-3">
+              <label class="form-label">Select Course</label>
+              <select class="form-select">
+                <option selected>Choose...</option>
+                <option>BCA</option>
+                <option>B.Com</option>
+                <option>BBA</option>
+                <option>MBA</option>
+                <option>B.Tech</option>
+              </select>
+            </div>
+
+            <!--Address-->
+            <div class="mb-3">
+              <label class="form-label">Address</label>
+              <textarea class="form-control" rows="3"></textarea>
+            </div>
+
+            <!--Checkbox-->
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" />
+              <label class="form-check-label"
+                >I agree to terms & conditions</label
+              >
+            </div>
+
+            <!--Button-->
+            <div class="d-grid">
+              <button class="btn btn-success" type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!--JS link start-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <!--JS link end-->
+  </body>
+</html>
